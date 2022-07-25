@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     String customerEmail = "jeromeaujiajun@rocketmail.com";
     TextView _txtTest;
     Button _btnTest;
+    String tester = "123";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
