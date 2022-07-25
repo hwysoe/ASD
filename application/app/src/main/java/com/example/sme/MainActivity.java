@@ -34,16 +34,11 @@ import java.util.Properties;
 public class MainActivity extends AppCompatActivity {
     Button _btnSend;
     String customerEmail = "jeromeaujiajun@rocketmail.com";
-    TextView _txtTest;
-    Button _btnTest;
-    String number_String = "1233";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        _txtTest = findViewById(R.id.txtTest);
-        _btnTest = findViewById(R.id.btnTest);
         _btnSend = findViewById(R.id.btnSend);
         _btnSend.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -78,21 +73,5 @@ public class MainActivity extends AppCompatActivity {
         });
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
-
-        _btnTest.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                String searchItem = "toys";
-                try {
-                    Document doc1 = Jsoup.connect("https://shopee.sg/search?keyword=" + searchItem).get();
-                   // Elements els1 = doc1.getElementsByClass("VTjd7p whIxGK");
-                    _txtTest.setText(doc1.title());//els1.toString());
-                } catch (IOException e) {
-                    _txtTest.setText(e.toString());
-                    e.printStackTrace();
-                }
-
-            }
-        });
     }
 }
