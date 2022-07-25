@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         _btnTest.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                String searchItem = "toy";
+                String searchItem = "toys";
                 try {
                     Document doc1 = Jsoup.connect("https://shopee.sg/search?keyword=" + searchItem).get();
                    // Elements els1 = doc1.getElementsByClass("VTjd7p whIxGK");
