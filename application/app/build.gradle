@@ -1,8 +1,16 @@
 plugins {
     id 'com.android.application'
+    id "org.sonarqube" version "3.4.0.2513"
+
 }
 
-
+sonarqube {
+    properties {
+        property "sonar.projectKey", "lordragonj_ASD"
+        property "sonar.organization", "lordragonj"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
 
 android {
     compileSdk 32
