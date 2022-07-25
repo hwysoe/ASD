@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     String customerEmail = "jeromeaujiajun@rocketmail.com";
     TextView _txtTest;
     Button _btnTest;
-    String number_String = "123";
+    String number_String = "1233";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
