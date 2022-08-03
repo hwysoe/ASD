@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 final String SME_email = "shopmadez22@gmail.com";
                 final String SME_email_pass = "ktvcougoreeskeax";
-                String message = "Hi this is a test email.";
+                String message = "Hi this is a test email";
                 Properties props = new Properties();
                 props.put("mail.smtp.auth", "true");
                 props.put("mail.smtp.starttls.enable", "true");
