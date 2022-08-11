@@ -2,22 +2,15 @@ package com.example.sme;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 //import Button widget
 import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
-
 
 
 //packages for mail
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -27,19 +20,18 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-import java.io.IOException;
 import java.util.Properties;
 
 
-public class MainActivity extends AppCompatActivity {
+public class ResetPassPage extends AppCompatActivity {
     Button _btnSend;
     String customerEmail = "jeromeaujiajun@rocketmail.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        _btnSend = findViewById(R.id.btnSend);
+        setContentView(R.layout.activity_reset_pass);
+        _btnSend = findViewById(R.id.btnReset);
         _btnSend.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
