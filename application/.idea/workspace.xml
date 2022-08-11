@@ -18,7 +18,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e169c5dd-e53f-4625-a714-ddcd3c52a0dc" name="Changes" comment="Homepage, empty search page, some name changes to btn and btn ids.">
+    <list default="true" id="e169c5dd-e53f-4625-a714-ddcd3c52a0dc" name="Changes" comment="Updated homepage button linking (still not working for now)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="a4fd9b7d-205f-45c7-945c-bf5eaaeac400" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/gradle.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
@@ -97,7 +100,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Signing Configs" />
@@ -198,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660207020406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated homepage button linking (still not working for now)">
+      <created>1660209244180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660209244180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated homepage button linking (still not working for now)">
+      <created>1660209308713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660209308713</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +234,7 @@
     <MESSAGE value="no message" />
     <MESSAGE value="Edited Password Recovery and created homepage template" />
     <MESSAGE value="Homepage, empty search page, some name changes to btn and btn ids." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homepage, empty search page, some name changes to btn and btn ids." />
+    <MESSAGE value="Updated homepage button linking (still not working for now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated homepage button linking (still not working for now)" />
   </component>
 </project>
