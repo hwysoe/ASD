@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ResetPassPage">
+
+    <ImageView
+        android:id="@+id/whiteBG"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rounded_whitebg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/promoTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="PROMOTIONS"
+        android:textAlignment="textStart"
+        android:textColor="#DB9000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whiteBG" />
+
+    <TextView
+        android:id="@+id/shopsTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="16dp"
+        android:text="SHOPS"
+        android:textAlignment="textStart"
+        android:textColor="#DB9000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/promoTxt" />
+
+    <TextView
+        android:id="@+id/featuredTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="16dp"
+        android:text="FEATURED"
+        android:textAlignment="textStart"
+        android:textColor="#DB9000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopsTxt" />
+
+    <TextView
+        android:id="@+id/catTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="CATEGORIES"
+        android:textAlignment="textStart"
+        android:textColor="#DB9000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/whiteBG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/featuredTxt"
+        app:layout_constraintVertical_bias="0.666" />
+    <!--Shopee Button-->
+    <ImageButton
+        android:id="@+id/shopeeBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/shopee_logo"
+        android:text="Shopee"
+        app:layout_constraintBottom_toTopOf="@+id/featuredTxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopsTxt"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <!--Lazada Button-->
+    <ImageButton
+        android:id="@+id/lazBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/laz_logo"
+        android:text="Lazada"
+        app:layout_constraintBottom_toTopOf="@+id/featuredTxt"
+        app:layout_constraintEnd_toStartOf="@+id/amazonBtn"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toEndOf="@+id/shopeeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/shopsTxt"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <!--Amazon Button-->
+    <ImageButton
+        android:id="@+id/amazonBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/amazon"
+        android:text="Amazon"
+        app:layout_constraintBottom_toTopOf="@+id/featuredTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopsTxt"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/menuBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/burger"
+        app:layout_constraintBottom_toTopOf="@+id/whiteBG"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
